@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Play"
+        android:onClick="PlayGame"
+        android:background="@color/colorWhite"
+        android:textColor="#3D49B8"
+        android:fontFamily="@font/font_one"
+        android:layout_marginTop="450dp"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="75dp"
+        android:paddingRight="75dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Exit"
+        android:onClick="exit"
+        android:background="@color/colorWhite"
+        android:textColor="#3D49B8"
+        android:fontFamily="@font/font_one"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"/>
+
+</LinearLayout>
